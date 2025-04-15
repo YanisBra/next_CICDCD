@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "${AGENT}"
+        label 'JenkinsAgent_next_docker'
     }
 
     stages {
